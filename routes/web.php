@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Firmayonetimi;
-
+use App\Http\Controllers\EmployeeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +16,6 @@ use App\Http\Controllers\Firmayonetimi;
 */
 
 Route::get('/', [Firmayonetimi::class,'index'])->name('firma_ekle');
-
-
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

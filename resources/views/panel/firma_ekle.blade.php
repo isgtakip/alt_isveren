@@ -13,12 +13,15 @@ Firma Listesi
   <div class="row">
     <div class="col-lg-12">
 
+
+
       <div class="card card-primary card-outline">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
 
-              
 
+
+          <div id="example"></div>
 
         </div>
       </div><!-- /.card -->
