@@ -16,6 +16,8 @@ use App\Http\Controllers\EmployeeController;
 */
 
 Route::get('/', [Firmayonetimi::class,'index'])->name('firma_ekle');
+Route::get('firmalar/list', [Firmayonetimi::class, 'getFirmalar'])->name('firmalar.list');
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
