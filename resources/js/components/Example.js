@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 
 function Example() {
     return (
-          <div class="card card-primary card-outline">
+          <div className="card card-primary card-outline">
 
-                    <div class="card-body">
+                    <div className="card-body">
 
-                      <a href="#" class="btn btn-primary">Yeni Firma Ekle</a>
+                      <a href="#" className="btn btn-primary">Yeni Firma Ekle</a>
                     </div>
                   </div>
 

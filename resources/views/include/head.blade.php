@@ -10,24 +10,17 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ asset('tema/dist/css/adminlte.min.css') }}">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+     <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
+     <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 
+       <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.css" rel="stylesheet">
+          <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap4.css" rel="stylesheet">
+       <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.css" rel="stylesheet">
 
+      <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.foundation.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
-   <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
-   <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+       <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.css" rel="stylesheet">
 
-
-
-  <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.css" rel="stylesheet">
-
-     <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap4.css" rel="stylesheet">
-
-     <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.css" rel="stylesheet">
-
-    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.foundation.css" rel="stylesheet">
-
-     <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.css" rel="stylesheet">
-
-     <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.semanticui.css" rel="stylesheet">
+       <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.semanticui.css" rel="stylesheet">

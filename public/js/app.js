@@ -1921,12 +1921,12 @@ __webpack_require__.r(__webpack_exports__);
 
 function Example() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    "class": "card card-primary card-outline",
+    className: "card card-primary card-outline",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      "class": "card-body",
+      className: "card-body",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
         href: "#",
-        "class": "btn btn-primary",
+        className: "btn btn-primary",
         children: "Yeni Firma Ekle"
       })
     })

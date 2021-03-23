@@ -15,21 +15,14 @@ class Firmayonetimi extends Controller
    public function index ()
    {
 
-
-      return view ('panel.firma_ekle');
-
+      return view ('panel.firma_listele');
 
    }
 
    public function getFirmalar(Request $request)
     {
         if ($request->ajax()) {
-
-
-
             $data = Firmalar::latest()->orderBy('firma_id')->get(['firma_id','firma_tam_unvan','firma_kisa_adi','firma_sgk_no','firma_tehlike_sinifi','firma_tip']);
-
-
             return Datatables::of($data)
                 ->addIndexColumn()
                 ->addColumn('action', function($row){

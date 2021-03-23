@@ -10,7 +10,6 @@ class Firmalar extends Model
     use HasFactory;
 
      protected $table = 'firmalar';
-      
 
 
      protected $fillable = [

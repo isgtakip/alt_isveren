@@ -18,7 +18,7 @@ Firma Listesi
     </div>
 
 
-      <div class="col-lg-12" id="card">
+      <div class="col-lg-12">
 
     <div class="card card-primary card-outline">
 
